@@ -15,7 +15,8 @@ angular.module('apiconsumeApp').controller('AboutCtrl',
   	WebsiteService
             .load()
             .then( function( websiteResource ) {
-            	console.log(websiteResource );
+            	console.log(websiteResource);
+            	console.log(websiteResource.$get());
             });
 
 }

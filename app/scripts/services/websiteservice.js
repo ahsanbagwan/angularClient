@@ -12,7 +12,7 @@ angular.module('apiconsumeApp')
     
     // Public API here
     return {
-      'load': function () {
+      load: function () {
         return halClient.$get('https://www.reddit.com/.json');
       }
     };
