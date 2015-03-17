@@ -8,7 +8,7 @@
  * Factory in the apiconsumeApp.
  */
 angular.module('apiconsumeApp')
-  .factory('WebsiteService', ['halClient',function () {
+  .factory('WebsiteService', ['halClient',function(halClient) {
     
     // Public API here
     return {
