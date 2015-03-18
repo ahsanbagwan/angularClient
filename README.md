@@ -4,7 +4,9 @@ At the moment, just formatting the json
 
 TODO
 
-Decorate with CSS
+* Properly display a complete self post
+
+* Decorate with CSS
 
 ## Build & development
 
