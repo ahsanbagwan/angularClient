@@ -1,8 +1,4 @@
-<p>This is the about view.</p>
-
 <p>
-	<div ng-repeat="data in listingData">{{data}}</div>
-	{{data.kind}}
-	This is new content.	
-
+	<div ng-repeat="data in listingData">{{data.children[0].data.title}}</div>
+	<div ng-repeat="data in listingData">{{data.children[0].data.thumbnail}}</div>
 </p>	
