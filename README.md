@@ -12,7 +12,7 @@ TODO
 
 Future Enhancements
 
-* 
+* Add Karma tests
 
 ##
 
