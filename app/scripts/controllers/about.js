@@ -11,12 +11,15 @@
 angular.module('apiconsumeApp').controller('AboutCtrl',
 			['$rootScope', '$scope', 'WebsiteService',
  function($rootScope, $scope, WebsiteService) {
-  
+  	
+  	$scope.listingData = {};
   	WebsiteService
             .load()
             .then( function( websiteResource ) {
             	console.log(websiteResource);
-            	console.log(websiteResource.$get());
+            	console.log(JSON.stringify(websiteResource));
+
+            	$scope.listingData = websiteResource;
             });
 
 }

@@ -13,7 +13,7 @@ angular.module('apiconsumeApp')
     // Public API here
     return {
       load: function () {
-        return halClient.$get('https://www.reddit.com/.json');
+        return halClient.$get('https://www.reddit.com/r/angularjs/.json');
       }
     };
   }]);
