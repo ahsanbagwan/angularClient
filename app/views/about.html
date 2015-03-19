@@ -1,5 +1,12 @@
 <p>
-	<div ng-repeat="data in listingData">{{data.children[0].data.title}}</div>
+	<!--<div ng-repeat="data in listingData">{{data.children[0].data.title}}</div>
 	<div ng-repeat="data in listingData">{{data.children[0].data.thumbnail}}</div>
-	<div ng-repeat="data in listingData">{{data.children[0].data.permalink}}</div>
+	<div ng-repeat="data in listingData">{{data.children[0].data.permalink}}</div>-->
+	<ul ng-repeat="element in array">
+		<li>{{element.data.title}}</li>
+		<li>{{element.data.author}}</li>
+		<li>{{element.data.num_comments}}</li>
+		<li>{{element.data.url}}</li>	
+	</ul>	
+
 </p>	

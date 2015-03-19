@@ -16,11 +16,20 @@ angular.module('apiconsumeApp').controller('AboutCtrl',
   	WebsiteService
             .load()
             .then( function( websiteResource ) {
-            	console.log(websiteResource);
-            	console.log(JSON.stringify(websiteResource));
+            	// console.log(websiteResource);
+            	// console.log(JSON.stringify(websiteResource));
 
+            	$scope.array = [];
             	$scope.listingData = websiteResource;
-            });
+            	angular.forEach(websiteResource.data.children, function(value, key){
+					$scope.array.push(value);
+            	});
 
-}
+            	/*console.log($scope.array);
+            	for (var i=0; i<$scope.array.length; i++) {
+            		console.log($scope.array[i].data.title);
+            	}
+            	*/
+            });
+}	
 ]);  

@@ -12,9 +12,11 @@ TODO
 
 * ~~Add Travis CI support~~
 
+* Add Karma tests
+
 Future Enhancements
 
-* Add Karma tests
+* User login
 
 ##
 
