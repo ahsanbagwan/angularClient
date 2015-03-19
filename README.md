@@ -14,6 +14,8 @@ TODO
 
 * Add Karma tests
 
+* Implement pagination
+
 Future Enhancements
 
 * User login
