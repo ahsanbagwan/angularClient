@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/ahsanbagwan/angularClient.svg?branch=master)](https://travis-ci.org/ahsanbagwan/angularClient)
 
-# apiconsume
+# Reddit Playground
 
-At the moment, just formatting the json
+Displaying posts of Angular.js subreddit. At the moment, just formatting the JSON.  
 
 TODO
 
@@ -15,6 +15,8 @@ TODO
 * Add Karma tests
 
 * Implement pagination
+
+* Create a new branch and start working on it
 
 Future Enhancements
 
