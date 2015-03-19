@@ -2,9 +2,9 @@
 
 # Reddit Playground
 
-Displaying posts of Angular.js subreddit. At the moment, just formatting the JSON.  
+Displaying posts of Angular.js subreddit.  
 
-TODO
+# TODO
 
 * Properly display a complete self post
 
@@ -18,7 +18,7 @@ TODO
 
 * Create a new branch and start working on it
 
-Future Enhancements
+# Future Enhancements
 
 * User login and REST API instead of JSON one
 
