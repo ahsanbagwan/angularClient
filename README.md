@@ -8,7 +8,7 @@ TODO
 
 * Decorate with CSS
 
-* Add Travis CI support
+* ~~Add Travis CI support~~
 
 Future Enhancements
 
