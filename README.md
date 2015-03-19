@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ahsanbagwan/angularClient.svg?branch=master)](https://travis-ci.org/ahsanbagwan/angularClient)
+
 # apiconsume
 
 At the moment, just formatting the json
