@@ -12,7 +12,7 @@ Displaying posts of Angular.js subreddit.
 
 * ~~Add Travis CI support~~
 
-* Add Karma tests
+* ~~Add Karma tests~~
 
 * Implement pagination
 
