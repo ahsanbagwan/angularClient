@@ -20,7 +20,11 @@ TODO
 
 Future Enhancements
 
-* User login
+* User login and REST API instead of JSON one
+
+* Deploy to Heroku
+
+* Add E2E tests
 
 ##
 
